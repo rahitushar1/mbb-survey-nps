@@ -1,0 +1,16 @@
+# Maryland MBB Survey — NPS + Drivers (R)
+
+This repo contains an R script to analyze a fan survey:
+- Descriptives + NPS summaries
+- Importance vs Satisfaction experience gaps
+- NPS drivers (Composite OLS, LASSO, RF-impute → LASSO)
+
+## Data
+Survey data is private and not included.
+To run locally, place the file at: `data/R1.csv`
+
+## Run
+Install packages: dplyr, glmnet, missForest, DescTools, car  
+Then run:
+```r
+source("scripts/01_analysis.R")

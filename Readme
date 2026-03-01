@@ -13,4 +13,5 @@ To run locally, place the file at: `data/R1.csv`
 Install packages: dplyr, glmnet, missForest, DescTools, car  
 Then run:
 ```r
-source("scripts/01_analysis.R")
+source("scripts/01_mbb_survey_clean_analysis.R")
+
